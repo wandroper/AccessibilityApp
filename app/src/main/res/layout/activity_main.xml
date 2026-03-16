@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:gravity="center">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="♿ Accessibility Helper"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:textColor="#2196F3"
+        android:layout_marginBottom="8dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ikuti langkah di bawah untuk mengaktifkan"
+        android:textSize="14sp"
+        android:textColor="#666666"
+        android:layout_marginBottom="32dp"/>
+
+    <!-- Step 1 -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Langkah 1: Izin Tampil di Atas Aplikasi"
+        android:textStyle="bold"
+        android:textSize="14sp"
+        android:layout_marginBottom="8dp"/>
+
+    <Button
+        android:id="@+id/btnRequestOverlay"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:text="Minta Izin Overlay"
+        android:backgroundTint="#2196F3"
+        android:layout_marginBottom="24dp"/>
+
+    <!-- Step 2 -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Langkah 2: Aktifkan Accessibility Service"
+        android:textStyle="bold"
+        android:textSize="14sp"
+        android:layout_marginBottom="8dp"/>
+
+    <Button
+        android:id="@+id/btnOpenAccessibility"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:text="Buka Pengaturan Accessibility"
+        android:backgroundTint="#4CAF50"
+        android:layout_marginBottom="24dp"/>
+
+    <!-- Step 3 -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Langkah 3: Jalankan Floating Menu"
+        android:textStyle="bold"
+        android:textSize="14sp"
+        android:layout_marginBottom="8dp"/>
+
+    <Button
+        android:id="@+id/btnStartService"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:text="▶ Start Floating Menu"
+        android:backgroundTint="#FF9800"
+        android:layout_marginBottom="8dp"/>
+
+    <Button
+        android:id="@+id/btnStopService"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:text="⏹ Stop Floating Menu"
+        android:backgroundTint="#F44336"/>
+
+</LinearLayout>
